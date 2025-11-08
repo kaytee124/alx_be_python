@@ -6,8 +6,8 @@ sub = number1 - number2
 mul = number1 * number2
 div = number1 / number2
 
-print("Addition of" + number1 + "and" + number2 + "is:" + sum)
-print("Subtraction of" + number1 + "and" + number2 + " is:" + sub)
-print("Multiplication of" + number1 + "and" + number2 + "is:" + mul)
-print("Division of" + number1 + "and" + number2 + "is:" + div ) 
+print("Addition of", number1 , "and", number2 , "is:", sum)
+print("Subtraction of", number1 , "and", number2 , " is:", sub)
+print("Multiplication of", number1 , "and", number2 , "is:", mul)
+print("Division of", number1 , "and", number2 , "is:", div ) 
 
