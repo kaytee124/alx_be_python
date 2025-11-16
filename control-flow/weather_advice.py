@@ -1,4 +1,4 @@
-weather = input("Enter the current weather? (sunny/rainy/cold): ").strip().lower()
+weather = input("What's the weather like today? (sunny/rainy/cold): ").strip().lower()
 match weather:
     case "sunny":
         print("Wear a t-shirt and sunglasses.")
@@ -8,4 +8,3 @@ match weather:
         print("make sure to wear a warm coat and a scarf.")
     case _:
         print("Sorry, I don't have recommendations for this weather.")
-        
