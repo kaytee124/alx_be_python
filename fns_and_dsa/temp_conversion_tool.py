@@ -13,7 +13,7 @@ while True:
         print("Invalid temperature input. Please enter a numeric value.")
         continue  # Loop back to asking for the temperature again
     
-    unit = input("Is this temperature in Celsius or Fahrenheit? (F/C): ").strip().upper()
+    unit = input("Is this temperature in Celsius or Fahrenheit? (C/F): ").strip().upper()
     
     if unit == 'F':
         celsius = convert_to_celsius(temperature)
